@@ -17,7 +17,6 @@ def caled(data: str):
 def leap_year(year):
     return year % 4 == 0 and year % 100 != 0 or year % 400 == 0
 
-
 def validate(data):
     try:
         num = datetime.strptime(data, "%d.%m.%Y").date()
